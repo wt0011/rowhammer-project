@@ -1,0 +1,83 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy_behav.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_v2_2_0_xiphy_behav
+INFO: [VRFC 10-311] analyzing module ddr4_phy_v2_2_0_bitslice_behav
+INFO: [VRFC 10-311] analyzing module ddr4_phy_v2_2_0_fifo_sv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_v2_2_0_xiphy
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/iob/ddr4_phy_v2_2_iob_byte.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_v2_2_0_iob_byte
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/iob/ddr4_phy_v2_2_iob.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_v2_2_0_iob
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/clocking/ddr4_phy_v2_2_pll.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_v2_2_0_pll
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_tristate_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_v2_2_0_xiphy_tristate_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_riuor_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_v2_2_0_xiphy_riuor_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_control_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_v2_2_0_xiphy_control_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_byte_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_v2_2_0_xiphy_byte_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_bitslice_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_v2_2_0_xiphy_bitslice_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/phy/ddr4_phy_0_phy_ddr4.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3381] ignoring re-definition of command line macro 'SIMULATION' [C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/phy/ddr4_phy_0_phy_ddr4.sv:82]
+INFO: [VRFC 10-311] analyzing module ddr4_phy_0_phy_ddr4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/ip_top/ddr4_phy_0_phy.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_0_phy
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/clocking/ddr4_v2_2_infrastructure.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_infrastructure
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_xsdb_bram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_xsdb_bram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_write.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_write
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_wr_byte.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_wr_byte
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_wr_bit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_wr_bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_sync.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_sync
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_read.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_read
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_rd_en.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_rd_en
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_pi.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_pi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_mc_odt.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_mc_odt
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_debug_microblaze.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_debug_microblaze
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_cplx_data.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_cplx_data
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_cplx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_cplx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_config_rom.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_config_rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_addr_decode.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3381] ignoring re-definition of command line macro 'SIMULATION' [C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_addr_decode.sv:85]
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_addr_decode
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_xsdb_arbiter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal_xsdb_arbiter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cal
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_chipscope_xsdb_slave.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_chipscope_xsdb_slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_dp_AB9.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_cfg_mem_mod
+INFO: [VRFC 10-311] analyzing module ddr4_v2_2_6_bram_tdp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/ip_top/ddr4_phy_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_phy_0_ddr4_cal_riu.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3381] ignoring re-definition of command line macro 'SIMULATION' [C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_phy_0_ddr4_cal_riu.sv:80]
+INFO: [VRFC 10-311] analyzing module ddr4_phy_0_ddr4_cal_riu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/ip_top/ddr4_phy_0_ddr4.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3381] ignoring re-definition of command line macro 'SIMULATION' [C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/ip_top/ddr4_phy_0_ddr4.sv:86]
+INFO: [VRFC 10-311] analyzing module ddr4_phy_0_ddr4
+WARNING: [VRFC 10-3381] ignoring re-definition of command line macro 'SIMULATION' [../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/ip_top/ddr4_v2_2_6_ddr4_phy_assert.vh:79]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/ip/ddr4_phy_0/tb/microblaze_mcs_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr4_phy_0_microblaze_mcs
+INFO: [VRFC 10-311] analyzing module microblaze_mcs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Anon/Dropbox/projects/UAH/S2019/CPE526/project/CustomController/CustomController.srcs/sources_1/new/Root.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Root

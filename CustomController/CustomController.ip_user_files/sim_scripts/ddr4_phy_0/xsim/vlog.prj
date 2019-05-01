@@ -1,0 +1,47 @@
+verilog xil_defaultlib --include "../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/ip_top" --include "../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal" --include "../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/map" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/bd_0/ip/ip_6/sim/bd_c5bc_lmb_bram_I_0.v" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/bd_0/ip/ip_9/sim/bd_c5bc_second_lmb_bram_I_0.v" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/bd_0/sim/bd_c5bc.v" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_0/sim/ddr4_phy_0_microblaze_mcs.v" \
+
+sv xil_defaultlib --include "../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/ip_top" --include "../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal" --include "../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/map" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy_behav.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/iob/ddr4_phy_v2_2_iob_byte.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/iob/ddr4_phy_v2_2_iob.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/clocking/ddr4_phy_v2_2_pll.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_tristate_wrapper.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_riuor_wrapper.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_control_wrapper.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_byte_wrapper.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_bitslice_wrapper.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/phy/ddr4_phy_0_phy_ddr4.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/ip_1/rtl/ip_top/ddr4_phy_0_phy.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/clocking/ddr4_v2_2_infrastructure.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_xsdb_bram.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_write.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_wr_byte.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_wr_bit.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_sync.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_read.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_rd_en.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_pi.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_mc_odt.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_debug_microblaze.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_cplx_data.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_cplx.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_config_rom.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_addr_decode.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_top.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal_xsdb_arbiter.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_cal.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_chipscope_xsdb_slave.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_v2_2_dp_AB9.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/ip_top/ddr4_phy_0.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/cal/ddr4_phy_0_ddr4_cal_riu.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/rtl/ip_top/ddr4_phy_0_ddr4.sv" \
+"../../../../CustomController.srcs/sources_1/ip/ddr4_phy_0/tb/microblaze_mcs_0.sv" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

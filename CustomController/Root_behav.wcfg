@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Root_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Root" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="534000001fs"></ZoomEndTime>
+      <Cursor1Time time="335000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="217"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="34" />
+   <wvobject fp_name="/Root/ddr4_act_n" type="logic">
+      <obj_property name="ElementShortName">ddr4_act_n</obj_property>
+      <obj_property name="ObjectShortName">ddr4_act_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_adr" type="array">
+      <obj_property name="ElementShortName">ddr4_adr[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr4_adr[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_ba" type="array">
+      <obj_property name="ElementShortName">ddr4_ba[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr4_ba[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_bg" type="array">
+      <obj_property name="ElementShortName">ddr4_bg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr4_bg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_cke" type="array">
+      <obj_property name="ElementShortName">ddr4_cke[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr4_cke[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_odt" type="array">
+      <obj_property name="ElementShortName">ddr4_odt[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr4_odt[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_cs_n" type="array">
+      <obj_property name="ElementShortName">ddr4_cs_n[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr4_cs_n[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_ck_t" type="logic">
+      <obj_property name="ElementShortName">ddr4_ck_t</obj_property>
+      <obj_property name="ObjectShortName">ddr4_ck_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_ck_c" type="logic">
+      <obj_property name="ElementShortName">ddr4_ck_c</obj_property>
+      <obj_property name="ObjectShortName">ddr4_ck_c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_reset_n" type="logic">
+      <obj_property name="ElementShortName">ddr4_reset_n</obj_property>
+      <obj_property name="ObjectShortName">ddr4_reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_dm_dbi_n" type="array">
+      <obj_property name="ElementShortName">ddr4_dm_dbi_n[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr4_dm_dbi_n[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_dq" type="array">
+      <obj_property name="ElementShortName">ddr4_dq[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr4_dq[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_dqs_c" type="array">
+      <obj_property name="ElementShortName">ddr4_dqs_c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr4_dqs_c[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/ddr4_dqs_t" type="array">
+      <obj_property name="ElementShortName">ddr4_dqs_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr4_dqs_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/c0_sys_clk_p" type="logic">
+      <obj_property name="ElementShortName">c0_sys_clk_p</obj_property>
+      <obj_property name="ObjectShortName">c0_sys_clk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/c0_sys_clk_n" type="logic">
+      <obj_property name="ElementShortName">c0_sys_clk_n</obj_property>
+      <obj_property name="ObjectShortName">c0_sys_clk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/calibDone" type="logic">
+      <obj_property name="ElementShortName">calibDone</obj_property>
+      <obj_property name="ObjectShortName">calibDone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/activate" type="array">
+      <obj_property name="ElementShortName">activate[7:0]</obj_property>
+      <obj_property name="ObjectShortName">activate[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/address" type="array">
+      <obj_property name="ElementShortName">address[135:0]</obj_property>
+      <obj_property name="ObjectShortName">address[135:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/bankAddress" type="array">
+      <obj_property name="ElementShortName">bankAddress[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bankAddress[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/bankGroup" type="array">
+      <obj_property name="ElementShortName">bankGroup[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bankGroup[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/rdData" type="array">
+      <obj_property name="ElementShortName">rdData[511:0]</obj_property>
+      <obj_property name="ObjectShortName">rdData[511:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/rdDataEn" type="logic">
+      <obj_property name="ElementShortName">rdDataEn</obj_property>
+      <obj_property name="ObjectShortName">rdDataEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/wrData" type="array">
+      <obj_property name="ElementShortName">wrData[511:0]</obj_property>
+      <obj_property name="ObjectShortName">wrData[511:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/wrDataEn" type="logic">
+      <obj_property name="ElementShortName">wrDataEn</obj_property>
+      <obj_property name="ObjectShortName">wrDataEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/cke" type="array">
+      <obj_property name="ElementShortName">cke[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cke[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/cs" type="array">
+      <obj_property name="ElementShortName">cs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cs[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/odt" type="array">
+      <obj_property name="ElementShortName">odt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">odt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/casSlot" type="array">
+      <obj_property name="ElementShortName">casSlot[1:0]</obj_property>
+      <obj_property name="ObjectShortName">casSlot[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/casSlot2" type="logic">
+      <obj_property name="ElementShortName">casSlot2</obj_property>
+      <obj_property name="ObjectShortName">casSlot2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/rdCAS" type="logic">
+      <obj_property name="ElementShortName">rdCAS</obj_property>
+      <obj_property name="ObjectShortName">rdCAS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Root/wrCAS" type="logic">
+      <obj_property name="ElementShortName">wrCAS</obj_property>
+      <obj_property name="ObjectShortName">wrCAS</obj_property>
+   </wvobject>
+</wave_config>

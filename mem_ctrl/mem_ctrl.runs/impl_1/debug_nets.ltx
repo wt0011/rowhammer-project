@@ -1,0 +1,2024 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "66633345"
+                    },
+                    {
+                        "type": "XSDBS_V2",
+                        "name": "phy",
+                        "spec": "labtools_xsdbslavelib_v2",
+                        "ipName": "DDR4_SDRAM",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "232AAD329C0652528A086ACDA09F92B4"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "u_ila_0",
+                        "spec": "labtools_ila_v6",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 1,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "23E7D65A79BC59F7BC47406C1714DFAE",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/mcRdCAS",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "mem_ctrl/mcRdCAS[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 14,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/mc_ADR",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[14]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[13]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[12]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[11]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[10]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[9]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[8]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[7]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[6]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[5]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[4]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[3]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[2]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[1]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/mc_ADR[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/mc_ACT_n",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "mem_ctrl/mc_ACT_n[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/mc_CS_n",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "mem_ctrl/mc_CS_n[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 11,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/act_wait_cnt_reg__0",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "mem_ctrl/act_wait_cnt_reg__0[11]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/act_wait_cnt_reg__0[10]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/act_wait_cnt_reg__0[9]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/act_wait_cnt_reg__0[8]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/act_wait_cnt_reg__0[7]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/act_wait_cnt_reg__0[6]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/act_wait_cnt_reg__0[5]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/act_wait_cnt_reg__0[4]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/act_wait_cnt_reg__0[3]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/act_wait_cnt_reg__0[2]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/act_wait_cnt_reg__0[1]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/act_wait_cnt_reg__0[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "cs",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "cs[1]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 6,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 1,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_state",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "mem_ctrl/ref_state[1]",
+                                                "parentNetId": 30
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_state[0]",
+                                                "parentNetId": 31
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 7,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 15,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt_reg__0",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[15]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[14]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[13]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[12]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[11]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[10]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[9]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[8]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[7]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[6]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[5]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[4]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[3]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[2]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[1]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/ref_cycle_cnt_reg__0[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe8",
+                                "id": 8,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 12,
+                                "portIndex": 8,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/wrData",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "mem_ctrl/wrData[12]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/wrData[11]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/wrData[10]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/wrData[9]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/wrData[8]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/wrData[7]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/wrData[6]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/wrData[5]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/wrData[4]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/wrData[3]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/wrData[2]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/wrData[1]"
+                                            },
+                                            {
+                                                "name": "mem_ctrl/wrData[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe9",
+                                "id": 9,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/mcWrCAS",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "mem_ctrl/mcWrCAS[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 10,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_1[23]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 11,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 1,
+                                "rightIndex": 1,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_2",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_2[31]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 12,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 2,
+                                "rightIndex": 2,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_3",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_3[39]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 13,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 3,
+                                "rightIndex": 3,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_4",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_4[47]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 14,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 4,
+                                "rightIndex": 4,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_5",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_5[55]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 15,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 5,
+                                "rightIndex": 5,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_6",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_6[63]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 16,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 6,
+                                "rightIndex": 6,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_7",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_7[71]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 17,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 7,
+                                "rightIndex": 7,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_8",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_8[79]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 18,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 8,
+                                "rightIndex": 8,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_9",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_9[87]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 19,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 9,
+                                "rightIndex": 9,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_10",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_10[95]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 20,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 10,
+                                "rightIndex": 10,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_11",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_11[103]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 21,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 11,
+                                "rightIndex": 11,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_12",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_12[111]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 22,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 12,
+                                "rightIndex": 12,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_13",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_13[113]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 23,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 13,
+                                "rightIndex": 13,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address_14",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address_14[121]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 24,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 14,
+                                "rightIndex": 14,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "address",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "address[129]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe11",
+                                "id": 25,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 11,
+                                "nets": [
+                                    {
+                                        "name": "activate",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "activate[1]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe12",
+                                "id": 26,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 12,
+                                "nets": [
+                                    {
+                                        "name": "calibDone",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe13",
+                                "id": 27,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 13,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe14",
+                                "id": 28,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 14,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry__0_n_2",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe15",
+                                "id": 29,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 15,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry__0_n_3",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe16",
+                                "id": 30,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 16,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry__0_n_4",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe17",
+                                "id": 31,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 17,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry__0_n_5",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe18",
+                                "id": 32,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 18,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry__0_n_6",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe19",
+                                "id": 33,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 19,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry__0_n_7",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe20",
+                                "id": 34,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 20,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe21",
+                                "id": 35,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 21,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry_n_1",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe22",
+                                "id": 36,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 22,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry_n_2",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe23",
+                                "id": 37,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 23,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry_n_3",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe24",
+                                "id": 38,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 24,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry_n_4",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe25",
+                                "id": 39,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 25,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry_n_5",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe26",
+                                "id": 40,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 26,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry_n_6",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe27",
+                                "id": 41,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 27,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_cycle_cnt0_carry_n_7",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe28",
+                                "id": 42,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 28,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_done",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe29",
+                                "id": 43,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 29,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe30",
+                                "id": 44,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 30,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[0]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe31",
+                                "id": 45,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 31,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[1]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe32",
+                                "id": 46,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 32,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[2]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe33",
+                                "id": 47,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 33,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[3]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe34",
+                                "id": 48,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 34,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[4]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe35",
+                                "id": 49,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 35,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[5]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe36",
+                                "id": 50,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 36,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[5]_i_2_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe37",
+                                "id": 51,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 37,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[6]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe38",
+                                "id": 52,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 38,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[7]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe39",
+                                "id": 53,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 39,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[8]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe40",
+                                "id": 54,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 40,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[9]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe41",
+                                "id": 55,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 41,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[10]_i_2_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe42",
+                                "id": 56,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 42,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[10]_i_3_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe43",
+                                "id": 57,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 43,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt[10]_i_4_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe44",
+                                "id": 58,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 44,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt_reg_n_0_[0]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe45",
+                                "id": 59,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 45,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt_reg_n_0_[1]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe46",
+                                "id": 60,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 46,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt_reg_n_0_[2]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe47",
+                                "id": 61,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 47,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt_reg_n_0_[3]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe48",
+                                "id": 62,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 48,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt_reg_n_0_[4]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe49",
+                                "id": 63,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 49,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt_reg_n_0_[5]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe50",
+                                "id": 64,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 50,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt_reg_n_0_[6]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe51",
+                                "id": 65,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 51,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt_reg_n_0_[7]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe52",
+                                "id": 66,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 52,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt_reg_n_0_[8]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe53",
+                                "id": 67,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 53,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt_reg_n_0_[9]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe54",
+                                "id": 68,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 54,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_interval_cnt_reg_n_0_[10]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe55",
+                                "id": 69,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 55,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/ref_needed",
+                                        "isBus": false,
+                                        "parentNetId": 105
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe56",
+                                "id": 70,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 56,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[0]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe57",
+                                "id": 71,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 57,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[0]_i_2_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe58",
+                                "id": 72,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 58,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[0]_i_3_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe59",
+                                "id": 73,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 59,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[0]_i_4_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe60",
+                                "id": 74,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 60,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[0]_i_5_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe61",
+                                "id": 75,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 61,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[0]_i_6_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe62",
+                                "id": 76,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 62,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[0]_i_7_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe63",
+                                "id": 77,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 63,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[0]_i_8_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe64",
+                                "id": 78,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 64,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[1]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe65",
+                                "id": 79,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 65,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[1]_i_2_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe66",
+                                "id": 80,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 66,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[1]_i_3_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe67",
+                                "id": 81,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 67,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[1]_i_4_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe68",
+                                "id": 82,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 68,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[1]_i_5_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe69",
+                                "id": 83,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 69,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[1]_i_6_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe70",
+                                "id": 84,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 70,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[1]_i_7_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe71",
+                                "id": 85,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 71,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[2]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe72",
+                                "id": 86,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 72,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[2]_i_2_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe73",
+                                "id": 87,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 73,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[2]_i_3_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe74",
+                                "id": 88,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 74,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[3]_i_1_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe75",
+                                "id": 89,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 75,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[3]_i_2_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe76",
+                                "id": 90,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 76,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[3]_i_3_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe77",
+                                "id": 91,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 77,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[3]_i_4_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe78",
+                                "id": 92,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 78,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[3]_i_5_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe79",
+                                "id": 93,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 79,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[3]_i_6_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe80",
+                                "id": 94,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 80,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state[3]_i_7_n_0",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe81",
+                                "id": 95,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 81,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state_reg_n_0_[0]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe82",
+                                "id": 96,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 82,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state_reg_n_0_[1]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe83",
+                                "id": 97,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 83,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state_reg_n_0_[2]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe84",
+                                "id": 98,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 84,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/state_reg_n_0_[3]",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe85",
+                                "id": 99,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 85,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/wrDataEn",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe86",
+                                "id": 100,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 86,
+                                "nets": [
+                                    {
+                                        "name": "mem_ctrl/wrDataEn_r",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "parent_nets": [
+                    {
+                        "id": 30,
+                        "name": "mem_ctrl/ref_state[1]",
+                        "state_reg": [
+                            {
+                                "name": "mem_ctrl/FSM_sequential_ref_state_reg[1]",
+                                "states": [
+                                    {
+                                        "name": "INIT",
+                                        "val": "00"
+                                    },
+                                    {
+                                        "name": "NEED_REF",
+                                        "val": "10"
+                                    },
+                                    {
+                                        "name": "COUNTING",
+                                        "val": "01"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 31,
+                        "name": "mem_ctrl/ref_state[0]",
+                        "state_reg": [
+                            {
+                                "name": "mem_ctrl/FSM_sequential_ref_state_reg[0]",
+                                "states": [
+                                    {
+                                        "name": "INIT",
+                                        "val": "00"
+                                    },
+                                    {
+                                        "name": "NEED_REF",
+                                        "val": "10"
+                                    },
+                                    {
+                                        "name": "COUNTING",
+                                        "val": "01"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 105,
+                        "name": "mem_ctrl/ref_needed",
+                        "state_reg": [
+                            {
+                                "name": "mem_ctrl/FSM_sequential_ref_state_reg[0]",
+                                "states": [
+                                    {
+                                        "name": "INIT",
+                                        "val": "00"
+                                    },
+                                    {
+                                        "name": "NEED_REF",
+                                        "val": "10"
+                                    },
+                                    {
+                                        "name": "COUNTING",
+                                        "val": "01"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
